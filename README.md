@@ -1,8 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Amazon Prime Video Clone
+
+This project is a front-end clone of the Amazon Prime Video website, built using Next.js and Tailwind CSS. It aims to replicate the look and feel of the popular streaming platform with a modern and responsive user interface.
+
+## Features
+
+*   **Movie and TV Show Listings:** Displays a grid of movies and TV shows fetched from the OMDb API.
+*   **Search Functionality:** Allows users to search for movies and TV shows using the OMDb API.
+*   **Movie Details Modal:** Clicking on a movie card opens a modal displaying detailed information about the movie, including:
+    *   Movie Poster
+    *   Title
+    *   Rating (displayed with stars)
+    *   Cast
+    *   Reviews (if available from the API)
+*   **Hover Animations:** Interactive hover effects on movie cards for a more engaging user experience.
+*   **Responsive Design:** Built with Tailwind CSS to ensure the layout adapts to different screen sizes.
+
+## Technologies Used
+
+*   **Next.js:** React framework for server-side rendering and static site generation.
+*   **Tailwind CSS:** Utility-first CSS framework for rapid styling.
+*   **React:** JavaScript library for building user interfaces.
+*   **OMDb API:** External API used to fetch movie and TV show data.
 
 ## Getting Started
 
-First, run the development server:
+**Prerequisites:**
+
+*   Node.js installed on your machine.
+*   An API key from the OMDb API (you can get one [here](http://www.omdbapi.com/apikey.aspx)).
+
+**Installation:**
+
+1.  Clone the repository:
 
 ```bash
 npm run dev
